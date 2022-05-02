@@ -1,0 +1,9 @@
+{
+  "extends": "@ecubelabs/tsconfig/node16.json", // NOTE: https://github.com/Ecube-Labs/tsconfig/blob/main/node16.json
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "useUnknownInCatchVariables": false
+  }
+}
